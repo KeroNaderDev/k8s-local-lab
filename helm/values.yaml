@@ -1,0 +1,11 @@
+# values.yaml — Customize per user
+replicaCount: 2
+image:
+  repository: nginx
+  tag: alpine
+service:
+  type: LoadBalancer
+  port: 80
+env:
+  APP_NAME: demo-app
+  LOG_LEVEL: info
