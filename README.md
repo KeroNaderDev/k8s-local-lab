@@ -1,45 +1,40 @@
-# k8s-local-lab-demo
+# ☸️ K8s Local Lab — Demo
 
-☸️ K8s Local Lab — Demo | Local Kubernetes experiments
+Local Kubernetes lab for learning deployments
 
-> **Demo Showcase — Synthetic Data Only** — No personal data used.
+> **DevOps Track — Demo Showcase** | **Real Problem, Synthetic Data**
 
 ## Overview
-Demo project that solves a real problem in **DevOps** track. Built as a portfolio showcase with synthetic demo data.
+**Problem:** Learning K8s needs a safe local lab
+
+**Solution:** Local Kubernetes lab for learning deployments This demo proves the engineering approach with synthetic data.
 
 ## Architecture
 ```
-Code → GitHub → CI/CD → Docker → Linux → Nginx → SSL → Deployment
+Code → Docker → Kind/k3d → K8s → Dashboard
 ```
 
 ## Tech Stack
-- **Track:** DevOps
-- See `package.json` / `requirements.txt` for full list
+- Kubernetes, Docker, Helm
 
 ## Features
-- Solves real problem with demo data
-- Secure by design (validation, auth, RBAC where applicable)
-- Production-ready structure
+- Kind cluster\n- Helm charts\n- Autoscaling demo
 
 ## Security
-- Input validation
-- Authentication & Authorization (JWT/RBAC)
-- API security best practices
-- No real secrets — demo only
+- Validation, JWT/RBAC, Rate limiting, No real secrets
 
 ## Screenshots
-![Demo Screenshot](./screenshots/demo.png)
-*Placeholder — add real screenshot*
+![Demo](./screenshots/demo.png)
 
 ## Demo
-Demo data: `demo-data.json` (synthetic)
-Live Demo: `https://kero.10001mb.com/demo/k8s-local-lab-demo` (placeholder)
+- **Demo Data:** `demo-data.json`
+- **Live:** `https://kero.10001mb.com/demo/k8s-local-lab-demo` *(placeholder)*
 
 ## Installation
 ```bash
 git clone https://github.com/KeroNaderDev/k8s-local-lab-demo.git
 cd k8s-local-lab-demo
-npm install # or pip install -r requirements.txt
+npm install
 cp .env.example .env
 npm run dev
 ```
@@ -47,13 +42,12 @@ npm run dev
 ## Usage
 ```bash
 npm run dev
-# Open http://localhost:3000
 ```
 
 ## What I Learned
-- Building DevOps systems end-to-end
-- Securing APIs and infrastructure
-- Demo-driven portfolio design
+- DevOps end-to-end design
+- Demo vs real data separation
+- Professional portfolio structure
 
 ---
-*Part of **Kero Nader** — Cybersecurity | Full Stack | DevOps | IoT — Track: DevOps*
+*Track: DevOps • Portfolio: [KeroNaderDev](https://github.com/KeroNaderDev)*
