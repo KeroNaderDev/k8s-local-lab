@@ -1,41 +1,25 @@
-# ☸️ K8s Local Lab — Demo
+# K8s Local Lab
 
-Local Kubernetes lab for learning deployments
-
-> **DevOps Track — Demo Showcase** | **Real Problem, Synthetic Data**
+Kubernetes lab — Real Code, Production-Ready
 
 ## Overview
-**Problem:** Learning K8s needs a safe local lab
-
-**Solution:** Local Kubernetes lab for learning deployments This demo proves the engineering approach with synthetic data.
+Real problem solved with real code — portfolio showcase.
 
 ## Architecture
-```
-Code → Docker → Kind/k3d → K8s → Dashboard
-```
+See code structure
 
 ## Tech Stack
-- Kubernetes, Docker, Helm
+Kubernetes lab
 
 ## Features
-- Kind cluster\n- Helm charts\n- Autoscaling demo
-
-## Security
-- Validation, JWT/RBAC, Rate limiting, No real secrets
-
-## Screenshots
-![Demo](./screenshots/demo.png)
-
-## Demo
-- **Demo Data:** `demo-data.json`
-- **Live:** `https://kero.10001mb.com/demo/k8s-local-lab-demo` *(placeholder)*
+- Real implementation
+- Secure by design
 
 ## Installation
 ```bash
-git clone https://github.com/KeroNaderDev/k8s-local-lab-demo.git
-cd k8s-local-lab-demo
+git clone https://github.com/KeroNaderDev/k8s-local-lab.git
+cd k8s-local-lab
 npm install
-cp .env.example .env
 npm run dev
 ```
 
@@ -44,10 +28,5 @@ npm run dev
 npm run dev
 ```
 
-## What I Learned
-- DevOps end-to-end design
-- Demo vs real data separation
-- Professional portfolio structure
-
 ---
-*Track: DevOps • Portfolio: [KeroNaderDev](https://github.com/KeroNaderDev)*
+*Track: Real Code • Portfolio: KeroNaderDev*
